@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: montserrat;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+.weather-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 20px;
+}
+
+.weather-report__container {
+    background-color: #89bbcd;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 7px;
+}
+
+.weather-report__icon {
+    align-self: center;
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+}
+
+.temperature-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature-toggle {
+    display: flex;
+}
+
+.temperature-toggle__option {
+    opacity: 30%;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.temperature-toggle__option.active {
+    opacity: 100%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="weather-report">
+        <form action="">
+            <input type="search" name="search-field" id="search-field">
+            <button>Search</button>
+        </form>
+        <div class="weather-report__container">
+            <h2 class="weather-report__location-name"></h2>
+            <div class="weather-report__description"></div>
+            <img src="#" alt="weather icon" class="weather-report__icon">
+            <div class="temperature-container">
+                <h3 class="temperature-value"></h3>
+                <div class="temperature-toggle">
+                    <div class="temperature-toggle__option active" id="celsius">&#176;C</div>
+                    <div class="temperature-toggle__option" id="fahrenheit">&#176;F</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
